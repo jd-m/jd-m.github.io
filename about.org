@@ -1,7 +1,6 @@
 #+title: About
 
 #+POST_CLASS: info-page
-
 #+OPTIONS: devo-title-headline:t  devo-title-headline-class:heading
 
 * Why this blog?
