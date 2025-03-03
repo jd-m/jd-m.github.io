@@ -1,0 +1,32 @@
+#+title: John 1:1 Jesus as the new agent of creation
+#+date: 03 Feb 2025
+
+#+POST_CLASS: article
+
+#+PAGE_TYPE: article
+#+DEVO_POST_TAGS: 
+#+POST_IMAGE: 
+#+OPTIONS: devo-title-headline:t  devo-share-links:t
+
+#+POST_TYPE: Devotional
+#+DESCRIPTION: test
+#+SNIPPET: test
+
+John 1:1
+
+In the beginning was the Word. This links back to Genesis.
+
+
+
+
+
+#+begin_src emacs-lisp :results html :exports results
+(let((file-name (file-name-base (buffer-file-name))))
+(format "
+<span>Share to: </span>
+<a class=\"share-btn\" href=\"https://www.facebook.com/sharer/sharer.php?u=jd-m.github.io/posts/%s.html\">Facebook</a>
+
+<a class=\"share-btn\" href=\"https://twitter.com/intent/tweet?url=%s\">Twitter</a>
+
+" file-name file-name))
+#+end_src
