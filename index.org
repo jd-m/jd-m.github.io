@@ -57,11 +57,9 @@
   :END:
 
   #+attr_html: :class indent-3
-  - [[file:posts/20220719195738.org][One Thing You Lack]]
+  - [[file:posts/test-1.html]]
 
-  - [[file:posts/20220527172601.org][One Man's Strong City is Another Man's Ruin]]
   
-  - [[file:posts/20221026075259.org][How to Receive Generously]]
   #+begin_export javascript
   $(".posts-2 a").each(function (i, obj) {
   var a_href = $(this).attr('href');
@@ -100,9 +98,3 @@
 
   #+end_export
 
-  #+begin_comment
-  - [[file:posts/20220719195738.org][/17 July 2022/ One Thing You Lack]]
-  - [[file:posts/20220623212643.org][/23 Jun 2022/ Not as the World Gives]]
-  - [[file:posts/20220527172601.org][One Man's Strong City is Another Man's Ruin]]
-  
-  #+end_comment
