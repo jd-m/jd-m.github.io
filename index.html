@@ -39,50 +39,6 @@ $(".dropdown-icon").click(function(){
 </ul>
 </div>
 </div>
-<div class="clear content "><div class="col-6 indent-3 center"></div><div class="col-6 indent-3 center"><div>
-
-<div class="posts-2"><h2 id="recent-posts" class="heading indent-2">Blog</h2><ul class="indent-3"><li><a href="posts/20220719195738.html">One Thing You Lack</a></li>
-
-<li><a href="posts/20220527172601.html">One Man's Strong City is Another Man's Ruin</a></li>
-
-<li><a href="posts/20221026075259.html">How to Receive Generously</a></li>
-</ul>
-<script>  $(".posts-2 a").each(function (i, obj) {
-  var a_href = $(this).attr('href');
-
-  $.get(a_href, function (data) {
-  var date = $(data).filter('meta[property="date"]').attr("content");
-  var post_title = $(data).filter('meta[property="og:title"]').attr("content");
-  var description = $(data).filter('meta[property="og:description"]').attr("content");
-  var snippet = $(data).filter('meta[property="snippet"]').attr("content");
-  var tags = $(data).filter('meta[property="tags"]').attr("content");	
-  var image = $(data).filter('meta[property="og:image"]').attr("content");
-  var post_type = $(data).filter('meta[property="post_type"]').attr("content");
-  var text = $(data).find("p:not(blockquote p)").text().substring(0,250);
-  var html_string = "";          
-
-      html_string =
-
-          "<div class=\"card-1\">\n" + 
-          "<a href=\"" + a_href + "\"><img class=\"hide\" src=\"" + image + "\"/><\a>" +
-          "<div class=\"card-info\">" +
-      "<a href=\"" + a_href + "\"><div class=\"card-title\">" + post_title + "</div></a>\n" + 
-          "<div class=\"card-description\">" + description + "</div>\n" +
-          "<div class=\"card-date\">" + date + " &nbsp &#9679 &nbsp " + post_type + "</div>\n" + 
-          "<div class=\"card-text\">" + text + "...</div>" + 
-          "<a href=\"" + a_href + "\">" + 
-          "<div class=\"card-read-more\">continue reading...</div></a>" +
-          "</div>" + 
-          "<div class=\"card-seperator\">&#8226 &#8226 &#8226</div>" + 
-          "</div>";
-
-      $("#recent-posts").after(html_string);
-  });
-  });
-
-  $(".posts-2 ul").empty();
-
-</script>
-</div>
-</div></div></div><div class="footer" style="">
+<div class="clear content "><div class="col-6 indent-3 center"></div><div class="col-6 indent-3 center"><div class="posts-2"><h2 id="recent-posts" class="heading indent-2">Blog</h2></div>
+</div></div><div class="footer" style="">
 </div>
