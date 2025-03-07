@@ -57,7 +57,7 @@
   :END:
 
   #+attr_html: :class indent-3
-  - [[file:posts/test-1.html][File 1]]
+  - [[file:posts/test-1.org][File 1]]
 
   
   #+begin_export javascript

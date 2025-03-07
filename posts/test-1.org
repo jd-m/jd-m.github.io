@@ -18,8 +18,6 @@ In the beginning was the Word. This links back to Genesis.
 
 
 
-
-
 #+begin_src emacs-lisp :results html :exports results
 (let((file-name (file-name-base (buffer-file-name))))
 (format "
